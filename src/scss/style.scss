@@ -9,7 +9,11 @@
 }
 
 .container {
-    width: 1140px;
+    width: 339px;
     margin: 0 auto;
 }
 
+@import "blocks/button";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/promo";

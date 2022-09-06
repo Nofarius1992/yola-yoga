@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        &__img {
+            display: flex;
+            align-items: center;
+            font-weight: 700;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+            img {
+                width: 16px;
+                height: 16px;
+                margin-right: 4px;
+            }
+        }
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__in {
+        display: flex;
+        margin-right: 13px;
+        cursor: pointer;
+        color: $color-main;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    &__up {
+        margin-right: 10px;
+    }
+    &__hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 18px;
+        height: 16px;
+        cursor: pointer;
+        span {
+            height: 2px;
+            width: 100%;
+            background-color: $color-main;
+        }
+    }
+}

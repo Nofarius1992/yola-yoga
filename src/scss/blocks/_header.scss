@@ -1,0 +1,36 @@
+.header {
+    position: relative;
+    padding-top: 22px;
+    padding-bottom: 28px;
+    &__title {
+        margin-top: 28px;
+        max-width: 264px;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 46px;
+    }
+    &__text {
+        margin-top: 12px;
+        max-width: 306px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 24px;
+    }
+    &__button {
+        margin-right: 10px;
+    }
+    &__elipse1 {
+        position: absolute;
+        top: 87px;
+        left: 222px;
+    }
+    &__elipse2 {
+        position: absolute;
+        top: 273px;
+        left: 312px;
+    }
+}

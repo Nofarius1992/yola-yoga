@@ -1,0 +1,46 @@
+.button {
+    &__light {
+        display: flex;
+        width: 70px;
+        height: 31px;
+        background-color: $color-orange-light;
+        border: 1px solid $color-orange-base;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: $color-orange-base;
+        font-weight: 600;
+        font-size: 10px;
+        text-decoration: none;
+    }
+    &__orange {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 98px;
+        height: 31px;
+        color: $color-white;
+        background-color: $color-orange-base;
+        border: 1px solid $color-orange-base;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 10px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    &__white {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 77px;
+        height: 31px;
+        color: $color-main;
+        border: 1px solid $color-grey;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 10px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
