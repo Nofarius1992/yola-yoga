@@ -18,8 +18,17 @@
         width: 234px;
         z-index: 1;
     }
+    &__border {
+        margin-top: 40px;
+        position: relative;
+        width: 100%;
+        height: 361px;
+        background-image: url("../../img/promo-bg.jpg");
+        z-index: 3;
+    }
     &__steps {
         position: absolute;
+        bottom: 38px;
         width: 375px;
         height: 361px;
         display: grid;
@@ -101,14 +110,6 @@
                 margin-bottom: 17px;
             }
         }
-    }
-    &__border {
-        position: absolute;
-        top: 285px;
-        width: 100%;
-        height: 361px;
-        background-image: url("../../img/promo-bg.jpg");
-        z-index: 3;
     }
     &__elipse {
         position: absolute;
