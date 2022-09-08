@@ -1,0 +1,24 @@
+.statistic {
+    margin-top: 70px;
+    &__title {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 36px;
+        color: $color-main;
+    }
+    &__signature {
+        padding-top: 28px;
+    }
+    &__name {
+        font-size: 10px;
+        span {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+    &__wrapper {
+        padding-top: 11px;
+
+    }
+}
