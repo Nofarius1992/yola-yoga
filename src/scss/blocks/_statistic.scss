@@ -1,24 +1,64 @@
 .statistic {
+    position: relative;
     margin-top: 70px;
-    &__title {
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 36px;
-        color: $color-main;
-    }
     &__signature {
         padding-top: 28px;
     }
     &__name {
         font-size: 10px;
         span {
-            font-weight: 700;
+            font-weight: 800;
             font-size: 14px;
             line-height: 24px;
         }
     }
     &__wrapper {
         padding-top: 11px;
+        display: grid;
+        grid-template-columns: repeat(2, 157px);
+        grid-template-rows: repeat(2, 128px);
+        grid-auto-rows: 128px;
+        row-gap: 15px;
+        column-gap: 25px;
+    }
+    &__number {
+        font-weight: 700;
+        font-size: 26px;
+    }
+    &__title_card {
+        padding-top: 8px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    &__desc {
+        padding-top: 2px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    &__video {
+        padding-top: 70px;
+        position: relative;
+        width: 339px;
+        height: 180px;
+        .play {
+            position: absolute;
+            top: 142px;
+            left: 151px;
+        }
+    }
+    &__elipse_green {
+        position: absolute;
+        left: 272px;
+        top: 128px;
+    }
+    &__rectangle {
+        margin-top: 28px;
+        width: 38px;
+        height: 2px;
+        background-color: $color-orange-base;
+    }
+    &__start {
 
     }
 }
