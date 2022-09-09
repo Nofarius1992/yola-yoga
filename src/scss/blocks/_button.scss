@@ -29,6 +29,11 @@
         text-decoration: none;
         cursor: pointer;
     }
+    &__orange_big {
+        width: 124px;
+        height: 42px;
+        font-size: 12px;
+    }
     &__white {
         display: flex;
         justify-content: center;
