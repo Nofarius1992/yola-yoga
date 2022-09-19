@@ -13,9 +13,17 @@
     margin: 0 auto;
 }
 
+.text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: $color-text;
+}
+
 @import "blocks/title";
 @import "blocks/button";
 @import "blocks/header";
 @import "blocks/nav";
 @import "blocks/promo";
 @import "blocks/statistic";
+@import "blocks/courses";
