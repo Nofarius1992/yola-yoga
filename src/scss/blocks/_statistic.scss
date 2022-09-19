@@ -56,8 +56,8 @@
     }
     &__elipse_green {
         position: absolute;
-        left: 272px;
-        top: 128px;
+        right: 50px;
+        bottom: 48px;
     }
     &__rectangle {
         width: 38px;
@@ -70,10 +70,6 @@
     }
     &__text {
         padding-top: 12px;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 22px;
-        color: $color-text;
     }
     &__button {
         margin-top: 18px;
