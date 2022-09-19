@@ -1,5 +1,6 @@
 .courses {
-    margin-top: 70px;
+    margin: 70px 0;
+
     &__title {
         text-align: center;
     }
@@ -8,12 +9,63 @@
         text-align: center;
     }
     &__card {
-        margin-top: 66px;
+        margin-top: 20px;
+        padding: 0 18px 21px 17px;
         box-shadow: 0 18px 36px rgba(0, 0, 0, 0.07);
         border-radius: 14px;
     }
     &__img {
         display: block;
         margin: 0 auto;
+        width: 304px;
+        height: 262px;
+        border-radius: 14px;
+    }
+    &__subtitle {
+        padding-top: 16px;
+        max-width: 176px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    &__desc {
+        padding-top: 8px;
+        max-width: 257px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 12px;
+    }
+    &__rating {
+        display: flex;
+        align-items: center;
+    }
+    &__stars {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 68px;
+        margin-right: 6px;
+        img {
+            width: 12px;
+            height: 12px;
+        }
+    }
+    &__sum {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    &__link {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    &__button {
+        margin: 0 auto;
+        margin-top: 28px;
     }
 }
